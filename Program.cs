@@ -29,7 +29,22 @@ Console.Clear();
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
+// Метод 1. Через цикл
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number <= 99)
+//     Console.WriteLine("Третьей цифры нет");
+// else
+// {
+//     while (number >= 1000)
+//     {    
+//     number = number / 10;
+//     }
+// number = number % 10; 
+// Console.WriteLine(number);    
+// }
 
+// Метод 2. Поиск по индексу
 // Console.Write("Введите число: ");
 // string str = Console.ReadLine();
 
@@ -42,6 +57,7 @@ Console.Clear();
 // {
 //      Console.Write(ch[2]);
 // }
+
 
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
